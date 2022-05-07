@@ -10,6 +10,14 @@
 
 /*Responsive Mobile */
 @media (max-width: 740px) {
+    #main-container{
+        width: 98%;
+    }
+
+    #cv {
+        padding: 0;
+        width: 96%;
+    }
     #profile-avatar img {
         border-radius: 0;
     }
@@ -35,17 +43,18 @@
         font-size: 32px;
     }
 
-    #cv {
-        padding: 0;
-    }
+    
 
     #hocvan-main {
         margin: 0;
     }
 
     #school-name {
-        padding: 0 8px;
-        width: 50%;
+        padding-left: 4px;
+        padding-right: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+        width: 45%;
     }
 
     #school-name h4 {
@@ -63,11 +72,16 @@
     }
 
     #hocvan-detail {
-        padding: 0 8px;
+        width: 55%;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 0;
+        padding-bottom: 0;
     }
 
     #hocvan-detail div {
         font-size: 9px;
+        padding: 0;
     }
 
     #kynang-main {
@@ -76,7 +90,7 @@
 
     #kynang-header {
         justify-content: flex-start;
-        width: 50%;
+        width: 48%;
     }
 
     #kynang-detail {
@@ -122,12 +136,20 @@
     .table-row-title {
         width: 40%;
         padding: 5px;
-        font-size: 13px;
+        font-size: 12px;
     }
 
     .table-row-detail {
         width: 60%;
         padding: 5px;
-        font-size: 12px;
+        font-size: 11px;
+    }
+
+    .header h3{
+        padding-left: 10px;
+        padding-top: 0;
+        padding-right: 0;
+        padding-bottom: 0;
+        font-size: 16px;
     }
 }
