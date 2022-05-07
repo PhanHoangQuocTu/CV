@@ -20,6 +20,7 @@ body {}
 
 #main-container {
     width: 96%;
+    background-image: linear-gradient(rgba(168, 168, 244, 0.829), white);
     border: 2px solid rgba(204, 204, 204, 0.783);
     margin-top: 1%;
     margin-bottom: 1%;
