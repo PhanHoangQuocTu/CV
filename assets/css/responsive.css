@@ -12,6 +12,7 @@
 @media (max-width: 740px) {
     #main-container{
         width: 98%;
+        background-image: linear-gradient(rgba(168, 168, 244, 0.829), white);
     }
 
     #cv {
